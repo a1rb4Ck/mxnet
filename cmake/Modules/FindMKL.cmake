@@ -31,7 +31,7 @@ set(__looked_for MKL_INCLUDE_DIR)
 if(CMAKE_SIZEOF_VOID_P EQUAL 4)
   set(__path_suffixes lib lib/ia32)
 else()
-  set(__path_suffixes lib lib/intel64)
+  set(__path_suffixes lib lib)
 endif()
 
 set(__mkl_libs "")
